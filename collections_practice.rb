@@ -59,5 +59,7 @@ def add_s(array)
       x = "#{x}s"
       new << x
     end
+
   end
+  new
 end

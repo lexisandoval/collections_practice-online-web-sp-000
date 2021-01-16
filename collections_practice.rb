@@ -55,7 +55,7 @@ end
 def add_s(array)
   new = []
   array.each do |x|
-    if x != array[1]
+    while x != array[1]
       x = "#{x}s"
       new << x
     end

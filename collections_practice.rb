@@ -53,4 +53,7 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.each do |x|
+    if x != array[1]
+      x = "#{x}s"
 end

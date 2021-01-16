@@ -54,13 +54,12 @@ end
 
 def add_s(array)
   new = []
-
-  if array[1]
-    break
-  else
-    array.each do |x|
-    x = "#{x}s"
-    new << x
+  array.each do |x|
+    if x == array[1]
+      new << array[1]
+    else
+      x = "#{x}s"
+      new << x
     end
   end
   new

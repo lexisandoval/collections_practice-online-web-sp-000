@@ -55,8 +55,8 @@ end
 def add_s(array)
   new = []
 
-  if x == array[1]
-    1 + 1
+  if array[1]
+    break
   else
     array.each do |x|
     x = "#{x}s"

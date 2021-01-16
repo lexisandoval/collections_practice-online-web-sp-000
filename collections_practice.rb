@@ -58,8 +58,7 @@ def add_s(array)
     #if x != array[1]
       x = "#{x}s"
       new << x
-    end
-
+    #end
   end
   new
 end
